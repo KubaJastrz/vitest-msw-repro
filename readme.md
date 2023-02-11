@@ -1,5 +1,5 @@
 Repro:
 
 - git clone
-- yarn install
-- yarn test
+- npm install
+- npm test
