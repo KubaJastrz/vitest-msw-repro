@@ -1,6 +1,7 @@
 import { rest } from "msw";
 import { it } from "vitest";
 import { server } from "./server";
+import fetch from "node-fetch";
 
 it("works", async () => {
   server.use(
